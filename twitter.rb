@@ -1,4 +1,4 @@
-include(Math)
+﻿include(Math)
 
 load("make1d.rb")
 load("make2d.rb")
@@ -78,7 +78,6 @@ end
 def show_bird
 	image = make2d(H,W)
 
-	# フェーズ1
 	for i in 0..(H-1)
 		for j in 0..(W-1)
 			if circleA(i,j)
