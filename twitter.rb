@@ -1,4 +1,4 @@
-﻿include(Math)
+include(Math)
 
 load("make1d.rb")
 load("make2d.rb")
@@ -85,99 +85,51 @@ def show_bird
 			else
 				image[j][i] = 0
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==1 && circleBn(i,j)
 				image[j][i] = 0
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==0 && circleC(i,j)
 				image[j][i] = 1
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==1 && circleDn(i,j)
 				image[j][i] = 0
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==0 && circle1(i,j)
 				image[j][i] = 1
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==1 && circle2n(i,j)
 				image[j][i] = 0
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==0 && circle3(i,j)
 				image[j][i] = 1
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==1 && circle4n(i,j)
 				image[j][i] = 0
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==0 && circle5(i,j)
 				image[j][i] = 1
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==1 && circle6n(i,j)
 				image[j][i] = 0
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==0 && circle7(i,j)
 				image[j][i] = 1
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==1 && circle8n(i,j)
 				image[j][i] = 0
 			end
-		end
-	end
 
-	for i in 0..(H-1)
-		for j in 0..(W-1)
 			if image[j][i]==0 && circle9(i,j)
 				image[j][i] = 1
 			end
