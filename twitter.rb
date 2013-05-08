@@ -1,6 +1,5 @@
 include(Math)
 
-load("make1d.rb")
 load("make2d.rb")
 
 scale = 5
